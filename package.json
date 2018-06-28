@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-yamahaamplifier",
+  "version": "0.0.1",
+  "description": "Yamaha Amplifier Control For Node Red",
+  "main": "yamaha.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:haydendonald/node-red-contrib-yamahaamplifier.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "node-red",
+    "yamaha",
+    "amplifier",
+    "XMV",
+	  "VMX4280"
+  ],
+  "node-red": {
+    "nodes": {
+      "Network": "network.js",
+      "Yamaha": "yamaha.js"
+    }
+  },
+  "author": "Hayden Donald",
+  "bugs": {
+    "url": "https://github.com/haydendonald/node-red-contrib-yamahaamplifier/issues"
+  },
+  "homepage": "https://github.com/estbeetoo/node-red-contrib-yamahaamplifier#readme"
+}
