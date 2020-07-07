@@ -146,8 +146,10 @@ function outgoingHandler() {
                     else {
                         //Send
                         outgoingBuffer[i].retries += 1;
+                        outgoingBuffer[i].sent = true; //We don't handle replies fully so we'll just say it sent
                         outgoingBuffer[i].timeout = 10 + (i * 5) + (outgoingBuffer[i].retries * 5);
                         server.write(outgoingBuffer[i].buffer);
+
                     }
                 }
                 else {

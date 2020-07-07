@@ -1,9 +1,7 @@
 # node-red-contrib-yamahaamplifier
 Tested Using the XMV4280
 
-# In the testing phase, might have bugs, use at your own risk.
 
-This is not completed. The current commands that can be sent are:
 # Turn the amp on / off
 * msg.payload.command = "power:standby"
 * msg.payload.direction = "set/get"
